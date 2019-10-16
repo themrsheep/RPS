@@ -1,0 +1,29 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Rock paper scissors</title>
+ </head>
+ <body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <header>
+   <h1 id="mainTitle">Rock, Paper, Scissors</h1>
+  </header>
+  <main>
+   <div class="scoreboard">
+    <div class="badge" id="user">user</div>
+    <div class="badge" id="comp">computer</div>
+    <div class="score"><div id="userScore">0</div>:<div id="compScore">0</div></div>
+   </div>
+   <h2 id="sentence">Paper covers rock. You win!</h2>
+   <div class="hands">
+    <img class="hand" id="rock" src=./rock.jpeg id="rock">
+    <img class="hand" id="paper" src=./paper.jpeg id="paper">
+    <img class="hand" id="scissors" src=./scissor.png id="scissors">
+   </div>
+   <h5 id="finalState">Make your move.</h5>
+   <script src=./rps.js></script>
+   <link rel="stylesheet" type="text/css" href="./rps.css" />
+  </main>
+ </body>
+</html>
